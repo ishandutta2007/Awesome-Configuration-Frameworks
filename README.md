@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,13 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The configuration and application settings management software market is estimated at approximately **$3.3B to $5.2B**, expanding at a 12–15% CAGR. The sector is **moderately concentrated at the infrastructure level**—where hyperscalers (Microsoft, AWS, Google) dominate enterprise cloud platforms—yet **highly fragmented across the application layer**, with specialized SaaS platforms and open-source tools competing in dynamic configuration, secret distribution, and runtime feature orchestration.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **Cloud Configuration Services** (AWS AppConfig, Azure App Configuration, Google Cloud Runtime Configurator)  
-
-  Managed services for storing and deploying application configuration with versioning, validation, and gradual rollouts. Best for cloud-native applications requiring dynamic configuration without redeployment.
+| Platform | Company Scale (Valuation / Revenue) | Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Azure App Configuration** | ~$3.1T Market Cap / ~$245B Ann. Rev. | ~$1.20/store/day ($36/month) for Standard tier (includes 200,000 req/day; $0.06 per 10k additional requests) | **Free Forever**: 1,000 requests/day, 10 MB storage per store, up to 3 stores per region, 7-day key-value history | Centralized service for dynamic application settings, feature flags, and multi-environment management with gradual rollouts and Key Vault integration. |
+| **AWS AppConfig & Parameter Store** | ~$2.2T Market Cap / ~$107B AWS Ann. Rev. | **Parameter Store**: Free for Standard ($0.05/parameter/month for Advanced). <br>**AppConfig**: $0.0000002/request + $0.0008/configuration received | **Free Forever**: Parameter Store includes 10,000 standard parameters (up to 4 KB each) and standard API throughput at $0; AppConfig has no standalone free tier (pure pay-as-you-go). | AWS systems for runtime application configuration deployment, validation, and hierarchical parameter storage across cloud targets without redeployment. |
+| **LaunchDarkly** | ~$3.0B Valuation / >$200M ARR | $12/month (Foundation plan, billed annually or scaled per service connection) | **Free Forever (Developer Plan)**: Unlimited seats, 1 project, 3 environments, 5 service connections, and 1,000 monthly active client-side contexts | Dynamic configuration, feature management, and runtime orchestration platform with real-time targeting and instant kill-switches. |
+| **Doppler** | ~$150M–$250M Est. Valuation / ~$10M–$15M Est. ARR | $21/user/month (Team plan) or $8/user/month beyond free seats on Developer plan | **Free Forever (Developer Plan)**: Up to 3 users, 5 config syncs, 10 projects, 4 environments per project, 10 configs per environment, 3-day audit logs | Developer-first centralized configuration and secret operations platform supporting multi-cloud syncing, secret referencing, and CLI injection (`doppler run`). |
 
 
 
