@@ -153,7 +153,7 @@ Contributions are welcome! To propose a new framework or update an existing list
 
 1. 🍴 **Fork** the repository.
 2. 📝 **Create a branch** and add/edit entries in `README.md` maintaining consistent formatting.
-3. 🔗 **Include:** Name, repository link, star badge, license, and a concise 1–2 sentence description.
+3. 🔗 **Include:** Name, repository link, Stars_Badge, license, and a concise 1–2 sentence description.
 4. 🚀 **Submit a Pull Request** with a descriptive summary of your additions.
 
 ---
