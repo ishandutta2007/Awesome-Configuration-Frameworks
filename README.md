@@ -1,4 +1,4 @@
-﻿# ⚡ Awesome-Configuration-Frameworks
+# ⚡ Awesome-Configuration-Frameworks
 
 <p align="center">
   <img src="./assets/banner.svg" alt="Awesome Configuration Frameworks Banner" width="100%" />
